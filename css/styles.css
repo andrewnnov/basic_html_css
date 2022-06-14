@@ -2,35 +2,31 @@ body {
     margin: 10px;
 }
 
-/* article .first {
+.first-letter {
     font-size: 140%;
-    font-style: italic;
-} */
-
-/* article :first-child {
-    font-size: 140%;
-    font-style: italic;
-} */
-
-/* article p:first-of-type {
-    font-size: 140%;
-    font-style: italic;
-} */
-
-article p:last-of-type {
     font-weight: bold;
 }
 
-
-
-ul li:nth-child(even) {
-    color: deeppink;
+p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
 }
 
-a:visited {
-    color: red;
+p::first-line {
+    color: blueviolet;
 }
 
-a:hover, a:focus {
-    color: black;
+::selection {
+    background-color: green;
+}
+
+p::before {
+    content: "...";
+    display: block;
+
+}
+p::after {
+    content: "...";
+    display: block;
+
 }
