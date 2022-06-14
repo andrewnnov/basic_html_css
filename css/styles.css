@@ -1,22 +1,36 @@
+body {
+    margin: 10px;
+}
 
-
-
-
-/* #products p {
-    color: red
+/* article .first {
+    font-size: 140%;
+    font-style: italic;
 } */
 
-/* #products > p {
-    color: red
+/* article :first-child {
+    font-size: 140%;
+    font-style: italic;
 } */
 
+/* article p:first-of-type {
+    font-size: 140%;
+    font-style: italic;
+} */
 
-/* siblings */
-#products + p {
-    color: red
+article p:last-of-type {
+    font-weight: bold;
 }
 
 
 
+ul li:nth-child(even) {
+    color: deeppink;
+}
 
+a:visited {
+    color: red;
+}
 
+a:hover, a:focus {
+    color: black;
+}
