@@ -1,32 +1,15 @@
-body {
-    margin: 10px;
+h1 {
+    color: dodgerblue;
 }
 
-.first-letter {
-    font-size: 140%;
-    font-weight: bold;
+.highlight {
+    color: deeppink !important;
 }
 
-p::first-letter {
-    font-size: 140%;
-    font-weight: bold;
+#product {
+    color: green;
 }
 
-p::first-line {
-    color: blueviolet;
-}
-
-::selection {
-    background-color: green;
-}
-
-p::before {
-    content: "...";
-    display: block;
-
-}
-p::after {
-    content: "...";
-    display: block;
-
+#product {
+    color: brown;
 }
