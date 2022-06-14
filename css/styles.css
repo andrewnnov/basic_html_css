@@ -3,3 +3,36 @@ p {
     color: green;
 }
 
+a[target='_blank'] {
+
+} 
+
+
+a[href*="google"] { 
+    color: aqua;
+}
+
+/* start with */
+a[href^="google"] { 
+    color: aqua;
+}
+
+/* ends  */
+a[href$="google"] { 
+    color: aqua;
+}
+
+a[href^="google"][href^=".com"] { 
+    color: aqua;
+} 
+
+
+
+#products {
+
+}
+
+.product {
+
+}
+
