@@ -25,9 +25,9 @@ strong {
 }
 
 .box {
-    width: 200px;
+    width: 600px;
     height: 200px;
-    background-color: rgba(30, 214, 24, 0.5);
+    background: radial-gradient(circle at top left, white, yellow)
 
 
 }
@@ -35,6 +35,6 @@ strong {
 .box1 {
     width: 200px;
     height: 200px;
-    background-color: #d618cd;
+    background: linear-gradient(45deg, red, yellow 45%, tomato);
 
 }
