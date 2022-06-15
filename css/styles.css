@@ -25,10 +25,16 @@ strong {
 }
 
 .box {
-    width: 600px;
+    width: 200px;
     height: 200px;
-    background: radial-gradient(circle at top left, white, yellow)
-
+    background: dodgerblue;
+    border: 10px dashed royalblue;
+    border-top: 20px solid red;
+    border-width: 10px 20px; 
+    border-color: blueviolet;
+    /* border-radius: 50px; */
+    box-shadow: 10px 10px 10px blue;
+    
 
 }
 
