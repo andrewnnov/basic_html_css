@@ -23,3 +23,18 @@ strong {
     color: initial;
     border: inherit;
 }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(30, 214, 24, 0.5);
+
+
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #d618cd;
+
+}
